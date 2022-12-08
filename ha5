@@ -1,0 +1,26 @@
+package noob;
+
+public class HA5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int w=1,g=2,k=3,a=4;
+		
+	    System.out.println("Before swapping,the values were:"+w+" "+g+" "+k+" "+a);
+		w=w+g;
+		g=w-g;
+		w=w-g;
+		
+		g=g+k;
+		k=g-k;
+		g=g-k;
+		
+		k=k+a;
+		a=k-a;
+		k=a-k;
+		System.out.println("After swapping, the values are:"+w+" "+g+" "+k+" "+a);
+		
+
+	}
+
+}
